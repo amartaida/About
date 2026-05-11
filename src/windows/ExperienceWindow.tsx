@@ -1,3 +1,5 @@
+import meImage from "../assets/image/work.png";
+
 export default function ExperienceWindow() {
   const experiences = [
     { 
@@ -46,6 +48,11 @@ export default function ExperienceWindow() {
 
   return (
     <div className="p-6 w-full max-w-3xl mx-auto space-y-6">
+      <img
+        src={meImage}
+        alt="Contact Me"
+        className="w-40 h-40 rounded-full object-cover mx-auto shadow-lg"
+      />
       {experiences.map((exp, index) => (
         <div
           key={index}
