@@ -38,11 +38,11 @@ const windowContent: Record<string, React.ReactNode> = {
 }
 
 const INITIAL_POSITIONS: Record<string, Position> = {
-  'About Me':   { x: 120, y: 100 },
-  Experience:   { x: 180, y: 150 },
-  Skills:       { x: 240, y: 200 },
-  Contact:      { x: 300, y: 250 },
-  Attachment:   { x: 360, y: 300 },
+  'About Me':   { x: 120, y: 80 },
+  Experience:   { x: 180, y: 120 },
+  Skills:       { x: 240, y: 160 },
+  Contact:      { x: 300, y: 200 },
+  Attachment:   { x: 360, y: 240 },
 }
 
 const INITIAL_Z: ZIndexMap = {
