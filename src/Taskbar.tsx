@@ -33,7 +33,7 @@ export default function Taskbar({ apps, closedWindows, time, isMobile, isMuted, 
   // Mobile: clock + mute button
   if (isMobile) {
     return (
-      <div className="absolute bottom-4 right-4 h-10 bg-black/50 backdrop-blur-xl border border-white/10 rounded-xl flex items-center gap-2 px-3 z-50 shadow-xl">
+      <div className="absolute top-4 right-4 h-10 bg-black/50 backdrop-blur-xl border border-white/10 rounded-xl flex items-center gap-2 px-3 z-50 shadow-xl">
         <button
           onClick={onToggleMute}
           className={`p-1.5 rounded-lg transition ${isMuted ? 'text-gray-500 hover:text-gray-300' : 'text-white hover:text-blue-300'}`}
